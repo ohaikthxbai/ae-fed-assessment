@@ -1,0 +1,26 @@
+
+/* mavbar */
+
+
+
+/* title-banner */
+
+.jumbotron {
+    margin-bottom: 0rem;
+}
+
+/* category nav links */ 
+.dropdown-toggle::after {
+    display:none
+}
+
+
+/* slideshow */ 
+.carousel-inner {
+    height: 500px;
+}
+
+#room-img {
+    position: relative;
+    top: -335px;
+}
