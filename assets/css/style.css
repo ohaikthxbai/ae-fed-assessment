@@ -87,6 +87,31 @@
     height: 300px;
 }
 
+/* mission statement*/
+#signature {
+    float: right;
+}
+
+
+/* footer */
+
+#footer-content {
+    padding: 25px 16px;
+}
+
+.list-group-item {
+    border: 0px;
+    padding: 5px;
+}
+
+#share-buttons img {
+    width: 35px;
+    padding: 5px;
+    border: 0;
+    box-shadow: 0;
+    display: inline;
+}
+
 
 /* media queries */
 
