@@ -2,7 +2,11 @@
 body {
     font-family: 'Vollkorn', serif;
 }
-.container, .jumbotron {
+/* background colors */
+.container,{
+    background-color: #fffefb;
+}
+.jumbotron {
     background-color: #fffefb;
 }
 h1, h2, h3, h4 {
