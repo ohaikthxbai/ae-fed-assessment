@@ -1,9 +1,18 @@
+/* body */
+body {
+    font-family: 'Vollkorn', serif;
+}
+
 /* hide scroll bar */
 
 ::-webkit-scrollbar {
     display: none;
 }
 
+/* logo */
+#logo-svg {
+    width: 100%;
+}
 
 /* color block image */
 
@@ -116,6 +125,14 @@
 /* media queries */
 
 @media (min-width: 320px) {
+    .container-fluid {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #hide-me {
+        display: none;
+    
+    }
     /* jumbotron */
     .display-3 {
         font-size: 3.2rem;
@@ -190,6 +207,10 @@
 }
 
 @media (min-width: 768px) {
+    #hide-me {
+        display: inline-block;
+    
+    }
     /* slideshow */
     .carousel-inner {
         height: 460px;
@@ -221,6 +242,9 @@
 }
 
 @media (min-width: 1024px) {
+    #hide-me {
+        display: inline-block;
+    }
     /* featured */
     .card-img-top {
         width: 100%;
