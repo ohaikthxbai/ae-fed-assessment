@@ -2,6 +2,39 @@
 body {
     font-family: 'Vollkorn', serif;
 }
+.container, .jumbotron {
+    background-color: #fffefb;
+}
+h1, h2, h3, h4 {
+    color: #7494b7;
+}
+
+.btn-primary {
+    background-color: #d5dc91;
+    border: #d5dc91;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    background-color: #c7d257;
+    border-color: #c7d257; /*set the color you want here*/
+}
+
+.btn-secondary {
+    color: #000000;
+    background-color: #ffcccc;
+    border: #ffcccc;
+}
+
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active, .btn-secondary.active, .open>.dropdown-toggle.btn-primary {
+    color: #000000;
+    background-color: #f99393;
+    border-color: #f99393; /*set the color you want here*/
+}
+
+a:link {
+    color: #000000;
+    text-decoration: none;
+}
 
 /* hide scroll bar */
 
