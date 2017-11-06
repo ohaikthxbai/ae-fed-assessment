@@ -1,3 +1,10 @@
+/* hide scroll bar */
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
 /* color block image */
 
 #color-top {
@@ -13,10 +20,13 @@
     right: 0;
 }
 
+
 /* mavbar */
+
 .navbar {
     margin-top: 6.03px;
 }
+
 
 /* title-banner */
 
@@ -59,9 +69,11 @@
 
 
 /* featured */
+
 .card {
     border: 0px;
 }
+
 #featured {
     height: 500px;
 }
@@ -78,7 +90,11 @@
 
 /* media queries */
 
-@media (max-width: 575px) {
+@media (min-width: 320px) {
+    /* jumbotron */
+    .display-3 {
+        font-size: 3.2rem;
+    }
     /* slideshow */
     .carousel-inner {
         height: 173px;
@@ -93,21 +109,88 @@
         position: relative;
         top: -52px;
     }
+    /* featured */
+    .card-img-top {
+        width: 100%;
+        height: auto;
+    }
 }
 
-@media (max-width: 768px) {
-        /* slideshow */
-        .carousel-inner {
-            height: 460px;
-        }
-        /* compensates for img position */
-        .carousel-caption {
-            color: #000000;
-            top: 130px;
-        }
-        /* display specific portion of image */
-        #room-img {
-            position: relative;
-            top: -130px;
-        }
+@media (min-width: 375px) {
+    /* jumbotron */
+    .display-3 {
+        font-size: 3.8rem;
+    }
+    /* slideshow */
+    .carousel-inner {
+        height: 210px;
+    }
+    /* compensates for img position */
+    .carousel-caption {
+        color: #000000;
+        top: 62px;
+    }
+    /* display specific portion of image */
+    #room-img {
+        position: relative;
+        top: -62px;
+    }
+    /* featured */
+    .card-img-top {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (min-width: 414px) {
+    /* slideshow */
+    .carousel-inner {
+        height: 236px;
+    }
+    /* compensates for img position */
+    .carousel-caption {
+        color: #000000;
+        top: 62px;
+    }
+    /* display specific portion of image */
+    #room-img {
+        position: relative;
+        top: -62px;
+    }
+    /* featured */
+    .card-img-top {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (min-width: 768px) {
+    /* slideshow */
+    .carousel-inner {
+        height: 460px;
+    }
+    /* compensates for img position */
+    .carousel-caption {
+        color: #000000;
+        top: 137px;
+    }
+    /* display specific portion of image */
+    #room-img {
+        position: relative;
+        top: -137px;
+    }
+    /* featured */
+    .card {
+        border: 0px;
+    }
+    #featured {
+        height: 500px;
+    }
+    #ft-body {
+        margin-top: 200px;
+    }
+    .card-img-top {
+        width: 100%;
+        height: auto;
+    }
 }
